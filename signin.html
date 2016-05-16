@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <div class="container">
+
+        <form class="form-signup" style="display:none;">
+          <h2 class="form-signup-heading">Sign Up</h2>
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" value="" placeholder="Email address" required autofocus>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <label for="inputMobile" class="sr-only">Mobile Phone</label>
+          <input type="tel" id="inputMobile" class="form-control" placeholder="Mobile Phone   +1 1234567890" required>
+
+          <a class="btn btn-lg btn-primary btn-block" id="btn_sign_up">Sign up</a>
+        </form>
+
+        <form class="form-validate" style="display:none;">
+          <h2 class="form-signin-heading">Verification Code</h2>
+          <label for="inputCode" class="sr-only">Verification Code</label>
+          <input type="number" id="inputCode" class="form-control" maxlength=6 placeholder="Verification Code" required>
+
+          <a class="btn btn-lg btn-primary btn-block" id="btn_verify">Verify</a>
+        </form>
+
+        <form class="form-signin">
+          <h2 class="form-signin-heading">Please sign in</h2>
+          <label for="inputUsername2" class="sr-only">Username</label>
+          <input type="email" id="inputUsername2" class="form-control" placeholder="Username" required autofocus>
+          <label for="inputPassword2" class="sr-only">Password</label>
+          <input type="password" id="inputPassword2" class="form-control" placeholder="Password" required>
+          <a id="forgot-password">Forgot Password?</a><br /><br />
+          <a class="btn btn-lg btn-primary btn-block" id="btn_sign_in">Sign In</a><br />
+          <a class="btn btn-lg btn-default btn-block" id="btn_create_account">Create Account</a>
+        </form>
+
+        <div class="success" style="display:none;">
+          Success!</br></br>
+          <a id="reset-password">Reset Password</a> | <a id="logout">Logout</a><br />
+        </div>
+
+      </div> <!-- /container -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jsbn.js"></script>
+        <script src="js/vendor/jsbn2.js"></script>
+        <script src="js/vendor/sjcl.js"></script>
+        <script src="js/vendor/moment.min.js"></script>
+        <script src="js/vendor/aws-cognito-sdk.js"></script>
+        <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+        <script src="js/vendor/aws-sdk.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
