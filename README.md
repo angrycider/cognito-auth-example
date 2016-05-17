@@ -1,6 +1,9 @@
 # cognito-auth-example
+This is a working example of using Amazon Cognito Identity and User Pools to create a complete Login solution with: Forgot Password, Reset Password, Account Validation via email or mobile phone, and Logout.
 
-All of the information used for this example is based on the following: [https://github.com/aws/amazon-cognito-identity-js](https://github.com/aws/amazon-cognito-identity-js)
+It uses Twitter Bootstrap for the design.  This likely needs some work as it needs form field validation and some other usability improvements, but you should be able to take most of this to incorporate into your own solution.
+
+All of the information used for this example is based on the following: [https://github.com/aws/amazon-cognito-identity-js](https://github.com/aws/amazon-cognito-identity-js)  For the most part you can also just refer to this article.  The one catch is that I did need to use a different version of sjcl.js based on the [following issue](https://github.com/aws/amazon-cognito-identity-js/issues/2)
 
 ### Step 1
 
