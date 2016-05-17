@@ -7,7 +7,11 @@ All of the information used for this example is based on the following: [https:/
 
 ### Step 1
 
-Create and AWS User Pool (under the Cognito Icon within the management console.) &nbsp;Use the default settings. You will want to create an **App**&nbsp;and take note of the highlighted items in the screenshots below. &nbsp;These are used to configure javascript with the necessary identifiers for your User and Identity Pools:
+Create and AWS User Pool (under the Cognito Icon within the management console.) 
+
+[https://aws.amazon.com/blogs/aws/new-user-pools-for-amazon-cognito/](https://aws.amazon.com/blogs/aws/new-user-pools-for-amazon-cognito/)
+
+Use the default settings. You will want to create an **App**&nbsp;and take note of the highlighted items in the screenshots below. &nbsp;These are used to configure javascript with the necessary identifiers for your User and Identity Pools:
 
 
 ![User Pool Attributes](https://raw.githubusercontent.com/angrycider/cognito-auth-example/master/img/userPool-Attributes.png)
@@ -22,7 +26,11 @@ Create and AWS User Pool (under the Cognito Icon within the management console.)
 
 ### Step 2
 
-Create your Federated Identity Pool.  For the most part you can use the defaults, but when you configure Cognito Provider, you will need to use the IDs you captured in Step 1\.  Also make note of the highlighted IDs as you will need those when configuring javascript.
+Create your Federated Identity Pool.  
+
+[http://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html](http://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html)
+
+For the most part you can use the defaults, but when you configure Cognito Provider, you will need to use the IDs you captured in Step 1\.  Also make note of the highlighted IDs as you will need those when configuring javascript.
 
 ![Edit Identity Pool](https://raw.githubusercontent.com/angrycider/cognito-auth-example/master/img/editIdentityPool.png)
 
